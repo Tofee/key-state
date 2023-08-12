@@ -10,7 +10,7 @@ key-state <input-device> [key]
 where:
  - ```<input-device>``` is the path to an input device, like /dev/input/event2
  - ```key``` is an optional numerical argument specifying which keycode to test.
-For a list of key codes, please see the (Linux UAPI)[https://github.com/torvalds/linux/blob/master/include/uapi/linux/input-event-codes.h] .
+For a list of key codes, please see the [Linux UAPI](https://github.com/torvalds/linux/blob/master/include/uapi/linux/input-event-codes.h) .
 
 Return value is **0** if the given key is pressed, or ```key``` is absent and any key is pressed.
 Otherwise, return value is **1**.
